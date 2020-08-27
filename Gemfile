@@ -16,3 +16,5 @@ end
 
 group :development do
 end
+
+gem 'activerecord-reset-pk-sequence'

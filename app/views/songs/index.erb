@@ -1,0 +1,6 @@
+<h1>I'm Song index page</h1>
+<ul>
+<h2><% @songs.each do |song| %></h2>
+<li><%= link_to song.artist.name, artist_path(song.artist) %> - <%= link_to song.title, song_path(song) %></li><br>
+<%end%>
+</ul>
