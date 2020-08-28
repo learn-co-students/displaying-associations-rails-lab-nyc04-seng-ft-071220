@@ -1,0 +1,6 @@
+<ul>
+    <% @artists.map do |artist|%>
+        <li> <%= artist.name %> - <%= artist.songs.count %> song</li>
+    <%end%>
+
+</ul>
